@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@areyesdev/components": "^0.1.0",
+    "@areyesdev/components": "0.1.2",
+    "minireset.css": "^0.0.7",
     "next": "11.0.1",
+    "next-transpile-modules": "8.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
