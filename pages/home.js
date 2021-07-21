@@ -1,13 +1,15 @@
-import { Avatar, Heading, Spacer, Card, Icon } from "@areyesdev/components";
+import {
+  Avatar,
+  Heading,
+  Spacer,
+  Card,
+  Icon,
+  CenteredContent,
+} from "@areyesdev/components";
 
 export default function Home() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
+    <CenteredContent>
       <div style={{ display: "flex" }}>
         <Avatar src="https://placeimg.com/200/200/people" />
         <Spacer.Vertical size="xs" />
@@ -44,6 +46,6 @@ export default function Home() {
         <Spacer.Vertical size="xs" />
         <span>Andres ha hecho check-in en main</span>
       </Card>
-    </div>
+    </CenteredContent>
   );
 }

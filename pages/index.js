@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { Heading, Input, Button, Spacer } from "@areyesdev/components";
+import {
+  Heading,
+  Input,
+  Button,
+  Spacer,
+  CenteredContent,
+} from "@areyesdev/components";
 
 export default function Home() {
   const [formValues, setFormValues] = useState({});
@@ -9,12 +15,7 @@ export default function Home() {
     setFormValues({ ...formValues, [key]: value });
   };
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
+    <CenteredContent>
       <Heading size="xl">Cuentame sobre ti</Heading>
       <Spacer.Horizontal size="md" />
       <Input
@@ -49,6 +50,6 @@ export default function Home() {
           Saltar este paso por ahora
         </Button>
       </div>
-    </div>
+    </CenteredContent>
   );
 }
