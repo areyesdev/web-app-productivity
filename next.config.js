@@ -1,5 +1,3 @@
-const withTranspileModules = require("next-transpile-modules")([
-  "@areyesdev/components",
-]);
+const webpackConfig = require("./config/webpack");
 
-module.exports = withTranspileModules();
+module.exports = webpackConfig();

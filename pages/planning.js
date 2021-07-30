@@ -11,6 +11,7 @@ import {
   FullHeightContent,
   Avatar,
   Spacer,
+  AddButton,
 } from "../../components-app-productivity";
 
 import { tasks } from "../api";
@@ -66,9 +67,12 @@ function Planning() {
             <Heading size="lg">
               Ahora dime, ¿cuál es la primera tarea en la que trabajarás hoy?
             </Heading>
-            <button onClick={() => addTask({ description: "new task hello" })}>
+            <AddButton
+              type="primary"
+              onClick={() => addTask({ description: "new task hello" })}
+            >
               Agregar Tarea
-            </button>
+            </AddButton>
             {data &&
               data.map((task) => {
                 return (
