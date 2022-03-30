@@ -1,33 +1,5 @@
 {
-  "tasks": [
-    {
-      "description": "Hello",
-      "priority": 0,
-      "status": "in-progress",
-      "id": 1
-    },
-    {
-      "description": "Hello",
-      "priority": 1,
-      "status": "in-progress",
-      "id": 2
-    },
-    {
-      "description": "new task hello",
-      "status": "pending",
-      "id": 5
-    },
-    {
-      "description": "new task hello",
-      "status": "pending",
-      "id": 7
-    },
-    {
-      "description": "new task hello",
-      "status": "pending",
-      "id": 8
-    }
-  ],
+  "tasks": [],
   "focus-sessions": [
     {
       "status": "finished",
