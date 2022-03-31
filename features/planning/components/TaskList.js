@@ -81,8 +81,10 @@ const TaskList = ({
 }
 
 TaskList.propTypes = {
+  onCompleteTask: PropTypes.func.isRequired,
   onDragEnd: PropTypes.func.isRequired,
   onDeleteTask: PropTypes.func.isRequired,
+  isActive: PropTypes.bool,
   tasks: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,

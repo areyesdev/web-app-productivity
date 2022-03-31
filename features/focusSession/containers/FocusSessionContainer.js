@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 
 import {
   FullHeightContent,
@@ -13,12 +14,12 @@ import {
 
 // TODO: Move to the common components
 import TaskList from '../../planning/components/TaskList'
-//import { MAXIMUM_BACKLOG_QUANTITY } from '../../planning/constants'
 import UserHeader from '../../common/components/UserHeader/UserHeader'
 
 const FocusSessionContainer = ({ initialData }) => {
   // FIXME: use initial data with react query
   const { tasks } = initialData
+
   const [showModal, setShowModal] = useState(false)
   const onCloseModal = () => {
     setShowModal(false)
@@ -96,6 +97,10 @@ const FocusSessionContainer = ({ initialData }) => {
       )}
     </>
   )
+}
+
+FocusSessionContainer.propTypes = {
+  initialData: PropTypes.object,
 }
 
 export default FocusSessionContainer
