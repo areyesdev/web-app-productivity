@@ -1,9 +1,9 @@
 import { ReactQueryCacheProvider, QueryCache } from 'react-query'
 import { ReactQueryDevtools } from 'react-query-devtools'
 import PropTypes from 'prop-types'
+
 import Head from 'next/head'
 import Link from 'next/link'
-
 import { Container, Button } from '@areyesdev/components'
 
 import 'minireset.css'
@@ -27,6 +27,8 @@ function MyApp({ Component, pageProps }) {
         style={{
           paddingTop: 30,
           display: 'flex',
+          //position: 'fixed',
+          width: '100%',
           justifyContent: 'space-between',
         }}
       >
