@@ -2,17 +2,17 @@
   "tasks": [
     {
       "description": "Esta es una nueva tarea",
-      "priority": 3,
+      "priority": 1,
       "id": 3
     },
     {
       "description": "Hola tareas",
-      "priority": 0,
+      "priority": 3,
       "id": 4
     },
     {
       "description": "Esto si que funciona",
-      "priority": 1,
+      "priority": 0,
       "id": 5
     },
     {
@@ -21,13 +21,8 @@
       "id": 6
     },
     {
-      "description": "Nueva tarea",
-      "priority": 4,
-      "id": 7
-    },
-    {
       "description": "Eliminar tarea",
-      "priority": 5,
+      "priority": 4,
       "id": 8
     }
   ],
