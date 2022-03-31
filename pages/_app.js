@@ -1,10 +1,10 @@
 import { ReactQueryCacheProvider, QueryCache } from 'react-query'
 import { ReactQueryDevtools } from 'react-query-devtools'
 import PropTypes from 'prop-types'
-
-import { Container, Button } from '@areyesdev/components'
 import Head from 'next/head'
 import Link from 'next/link'
+
+import { Container, Button } from '@areyesdev/components'
 
 import 'minireset.css'
 import '@areyesdev/components/styles/globals.css'

@@ -1,25 +1,45 @@
 {
   "tasks": [
     {
-      "description": "We are going to do more refactoring",
-      "priority": 0,
+      "description": "Agrego mi primera tarea",
+      "priority": 4,
       "id": 1
     },
     {
-      "description": "Que aterrize el Perseverance",
-      "priority": 1,
-      "id": 2
+      "description": "Esta es una nueva tarea",
+      "priority": 0,
+      "id": 3
     },
     {
-      "description": "Que Elon Musk no haga cosas cuando yo hago streaming",
+      "description": "Hola tareas",
+      "priority": 1,
+      "id": 4
+    },
+    {
+      "description": "Esto si que funciona",
+      "priority": 5,
+      "id": 5
+    },
+    {
+      "description": "sdd",
+      "priority": 3,
+      "id": 6
+    },
+    {
+      "description": "Nueva tarea",
       "priority": 2,
-      "id": 3
+      "id": 7
+    },
+    {
+      "description": "Esta es una tarea para eliminar",
+      "priority": 6,
+      "id": 8
     }
   ],
   "focus-sessions": [
     {
       "id": 1,
-      "state": "active",
+      "state": "finished",
       "tasks": [1, 2]
     }
   ],
