@@ -1,38 +1,33 @@
 {
   "tasks": [
     {
-      "description": "Agrego mi primera tarea",
-      "priority": 4,
-      "id": 1
-    },
-    {
       "description": "Esta es una nueva tarea",
-      "priority": 0,
+      "priority": 3,
       "id": 3
     },
     {
       "description": "Hola tareas",
-      "priority": 1,
+      "priority": 0,
       "id": 4
     },
     {
       "description": "Esto si que funciona",
-      "priority": 5,
+      "priority": 1,
       "id": 5
     },
     {
-      "description": "sdd",
-      "priority": 3,
+      "description": "Nueva tarea para eliminar",
+      "priority": 2,
       "id": 6
     },
     {
       "description": "Nueva tarea",
-      "priority": 2,
+      "priority": 4,
       "id": 7
     },
     {
-      "description": "Esta es una tarea para eliminar",
-      "priority": 6,
+      "description": "Eliminar tarea",
+      "priority": 5,
       "id": 8
     }
   ],
@@ -41,6 +36,18 @@
       "id": 1,
       "state": "finished",
       "tasks": [1, 2]
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
     }
   ],
   "profile": {
