@@ -1,7 +1,5 @@
-import PropTypes from 'prop-types'
+import FocusSessionContainer from '../features/focusSession/containers/FocusSessionContainer'
 import { resetServerContext } from 'react-beautiful-dnd'
-
-import PlanningContainer from '../features/planning/containers/PlanningContainer'
 
 import { tasksApi, focusSessionsApi } from '../features/planning/api'
 
@@ -14,26 +12,20 @@ export async function getServerSideProps({ res }) {
   // FIXME: Evaluate when this resetServerContext is necessary.
   resetServerContext()
 
-  if (activeFocusSession) {
+  if (!activeFocusSession) {
     res.statusCode = HTTP_FOUND
-    res.setHeader('Location', '/focus-session')
+    res.setHeader('Location', '/planning')
 
     // TODO:
     // return { props: { tasks, activeFocusSession } }
     return { props: {} }
   }
 
-  return { props: { tasks } }
+  return { props: { tasks, activeFocusSession } }
 }
 
-function Planning({ tasks }) {
-  // TODO: change initial data for an object
-  return <PlanningContainer initialData={tasks} />
+const FocusSession = ({ tasks, activeFocusSessiom }) => {
+  return <FocusSessionContainer initialData={{ tasks, activeFocusSessiom }} />
 }
 
-Planning.propTypes = {
-  // FIXME: Don't be fucking lazy and put the shape
-  tasks: PropTypes.array,
-}
-
-export default Planning
+export default FocusSession

@@ -1,53 +1,26 @@
 {
-  "tasks": [],
-  "focus-sessions": [
+  "tasks": [
     {
-      "status": "finished",
+      "description": "We are going to do more refactoring",
+      "priority": 0,
       "id": 1
     },
     {
-      "status": "finished",
+      "description": "Que aterrize el Perseverance",
+      "priority": 1,
       "id": 2
     },
     {
-      "status": "finished",
+      "description": "Que Elon Musk no haga cosas cuando yo hago streaming",
+      "priority": 2,
       "id": 3
-    },
+    }
+  ],
+  "focus-sessions": [
     {
-      "status": "finished",
-      "id": 4
-    },
-    {
-      "status": "finished",
-      "id": 5
-    },
-    {
-      "status": "finished",
-      "id": 6
-    },
-    {
-      "status": "finished",
-      "id": 7
-    },
-    {
-      "status": "finished",
-      "id": 8
-    },
-    {
-      "status": "finished",
-      "id": 9
-    },
-    {
-      "status": "finished",
-      "id": 10
-    },
-    {
-      "status": "finished",
-      "id": 11
-    },
-    {
-      "status": "finished",
-      "id": 12
+      "id": 1,
+      "state": "active",
+      "tasks": [1, 2]
     }
   ],
   "profile": {
