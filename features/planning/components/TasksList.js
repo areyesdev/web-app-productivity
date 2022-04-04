@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Task, Spacer, Divider, TaskCounter } from '@areyesdev/components'
+import { Task, Spacer, Divider, TaskCounter } from '@areyes.dev/components'
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
 
 import { PRIOTIY_TASKS_QUANTITY, MAXIMUM_BACKLOG_QUANTITY } from '../constants'

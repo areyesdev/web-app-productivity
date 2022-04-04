@@ -8,7 +8,7 @@ import {
   Spacer,
   Paragraph,
   Button,
-} from '@areyesdev/components'
+} from '@areyes.dev/components'
 
 const BreaktimeModal = ({ onClickClose }) => {
   return (

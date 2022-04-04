@@ -6,7 +6,7 @@ import {
   Button,
   Spacer,
   Paragraph,
-} from '@areyesdev/components'
+} from '@areyes.dev/components'
 
 const DeleteTaskModal = ({ onClickCancel, onClickConfirm }) => {
   return (

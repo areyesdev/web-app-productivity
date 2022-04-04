@@ -4,11 +4,11 @@ import PropTypes from 'prop-types'
 
 import Head from 'next/head'
 import Link from 'next/link'
-import { Container, Button } from '@areyesdev/components'
+import { Container, Button } from '@areyes.dev/components'
 
 import 'minireset.css'
-import '@areyesdev/components/styles/globals.css'
-import '@areyesdev/components/styles/tokens.css'
+import '@areyes.dev/components/styles/globals.css'
+import '@areyes.dev/components/styles/tokens.css'
 import '../styles/globals.css'
 import ToggleColorScheme from '../features/common/components/ToggleColorScheme'
 

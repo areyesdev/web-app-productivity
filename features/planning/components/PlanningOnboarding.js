@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { Spacer, Heading } from '@areyesdev/components'
+import { Spacer, Heading } from '@areyes.dev/components'
 
 const PlanningOnboarding = ({ tasksLength, children }) => {
   return (

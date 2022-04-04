@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { Spacer, Paragraph, Button } from '@areyesdev/components'
+import { Spacer, Paragraph, Button } from '@areyes.dev/components'
 
 const PlanningFooter = ({ tasksLength, onClickStartSession }) => {
   if (!!tasksLength >= 1) {

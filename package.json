@@ -27,7 +27,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@areyesdev/components": "*",
+    "@areyes.dev/components": "*",
     "minireset.css": "0.0.6",
     "next": "10.0.0",
     "next-transpile-modules": "4.1.0",

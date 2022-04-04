@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Check, Heading } from '@areyesdev/components'
+import { Check, Heading } from '@areyes.dev/components'
 
 import { handleClick } from './handlers'
 import { loadAndListenColorScheme } from './helpers'

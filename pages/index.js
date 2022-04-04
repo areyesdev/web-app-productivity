@@ -5,7 +5,7 @@ import {
   Button,
   Spacer,
   CenteredContent,
-} from '@areyesdev/components'
+} from '@areyes.dev/components'
 
 export default function Home() {
   const [formValues, setFormValues] = useState({})

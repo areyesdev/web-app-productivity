@@ -20,5 +20,5 @@ module.exports = {
     '**/__tests__/**/*.[jt]s?(x)',
     '**/?!(*.integration.)+(spec|test).[jt]s?(x)',
   ],
-  transformIgnorePatterns: ['node_modules/(?!@areyesdev/components)'],
+  transformIgnorePatterns: ['node_modules/(?!@areyes.dev/components)'],
 }
