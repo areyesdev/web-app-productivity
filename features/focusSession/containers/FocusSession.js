@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { useQueryCache } from 'react-query'
 
-import { FullHeightContent, LoadingError } from '@areyes.dev/components'
+import { FullHeightContent, LoadingError } from '@glrodasz/components'
 
 import UserHeader from '../../common/components/UserHeader'
 

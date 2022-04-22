@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { Spacer, Button } from '@areyes.dev/components'
+import { Spacer, Button } from '@areyesdev/components'
 
 const FocusSessionFooter = ({ onClickEndSession }) => {
   return (

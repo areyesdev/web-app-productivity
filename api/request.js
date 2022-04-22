@@ -4,6 +4,7 @@ class Request {
   constructor(resource) {
     this.resource = resource
   }
+
   request(resource = this.resource, options = {}) {
     const method = options.method ? options.method.toUpperCase() : 'GET'
     const requestOptions = { ...options, method }

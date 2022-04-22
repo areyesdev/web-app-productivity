@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { useQueryCache } from 'react-query'
 
-import { FullHeightContent, LoadingError } from '@areyes.dev/components'
+import { FullHeightContent, LoadingError } from '@areyesdev/components'
 
 import UserHeader from '../../common/components/UserHeader'
 import TaskList from '../components/TasksList'
@@ -19,7 +19,7 @@ import {
   handleClickCancelRemove,
   handleClickConfirmRemove,
   handleClickStartSession,
-} from '../../planning/handlers'
+} from '../handlers'
 import PlanningFooter from '../components/PlanningFooter'
 import AddTaskButton from '../components/AddTaskButton'
 

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { Spacer, AddButton } from '@areyes.dev/components'
+import { Spacer, AddButton } from '@areyesdev/components'
 
 import { MAXIMUM_BACKLOG_QUANTITY } from '../constants'
 

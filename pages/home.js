@@ -6,7 +6,7 @@ import {
   Icon,
   FullHeightContent,
   Paragraph,
-} from '@areyes.dev/components'
+} from '@areyesdev/components'
 
 import UserHeader from '../features/common/components/UserHeader/UserHeader'
 

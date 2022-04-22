@@ -1,22 +1,27 @@
 {
   "tasks": [
     {
-      "description": "Hola tareas",
-      "priority": 1,
+      "description": "This is another one!",
+      "priority": 2,
+      "id": 3
+    },
+    {
+      "description": "Una tarea más",
+      "priority": 0,
       "id": 4
     },
     {
-      "description": "Esto si que funciona",
-      "priority": 0,
+      "description": "saddas",
+      "priority": 1,
       "id": 5
     },
     {
-      "description": "Nueva tarea para eliminar",
-      "priority": 2,
+      "description": "Nueva tarera",
+      "priority": 3,
       "id": 6
     },
     {
-      "description": "Esta es una nueva tarea",
+      "description": "Nueva tarea",
       "priority": 4,
       "id": 7
     }
@@ -29,9 +34,6 @@
     },
     {
       "id": 2
-    },
-    {
-      "id": 3
     }
   ],
   "profile": {

@@ -2,6 +2,10 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=15.0.0",
+    "yarn": ">=1.22.5"
+  },
   "scripts": {
     "build": "next build",
     "dev:api": "json-server --watch db.json --port 3001",
@@ -27,7 +31,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@areyes.dev/components": "*",
+    "@areyesdev/components": "*",
     "minireset.css": "0.0.6",
     "next": "10.0.0",
     "next-transpile-modules": "4.1.0",

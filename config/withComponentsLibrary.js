@@ -2,7 +2,7 @@ const path = require('path')
 const transpileModules = require('next-transpile-modules')
 
 const reactPath = path.resolve(__dirname, '../node_modules/react')
-const withTranspileModules = transpileModules(['@areyes.dev/components'])
+const withTranspileModules = transpileModules(['@areyesdev/components'])
 
 // https://github.com/martpie/next-transpile-modules#i-have-trouble-with-duplicated-dependencies-or-the-invalid-hook-call-error-in-react
 const resolveUniqueReactForHooks = {

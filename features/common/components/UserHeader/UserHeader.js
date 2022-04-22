@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Avatar, Spacer, Heading, Paragraph } from '@areyes.dev/components'
+import { Avatar, Spacer, Heading, Paragraph } from '@areyesdev/components'
 
 import styles from './UserHeader.module.css'
 

@@ -1,11 +1,12 @@
 import { useState } from 'react'
+
 import {
   Heading,
   Input,
   Button,
   Spacer,
   CenteredContent,
-} from '@areyes.dev/components'
+} from '@areyesdev/components'
 
 export default function Home() {
   const [formValues, setFormValues] = useState({})
