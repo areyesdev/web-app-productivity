@@ -19,11 +19,6 @@
       "description": "Nueva tarera",
       "priority": 3,
       "id": 6
-    },
-    {
-      "description": "Nueva tarea",
-      "priority": 4,
-      "id": 7
     }
   ],
   "focus-sessions": [
